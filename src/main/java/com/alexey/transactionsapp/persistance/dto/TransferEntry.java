@@ -8,6 +8,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.math.BigDecimal;
+
 @Getter
 @Setter
 @Entity
@@ -17,5 +19,8 @@ import lombok.Setter;
 public class TransferEntry {
         @Id
         private String transactionId;
+        private String fromAddress;
+        private String toAddress;
+        private BigDecimal amount;
 
 }

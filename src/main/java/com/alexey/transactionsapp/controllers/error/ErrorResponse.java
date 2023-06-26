@@ -1,4 +1,4 @@
-package com.alexey.transactionsapp.error;
+package com.alexey.transactionsapp.controllers.error;
 
 public class ErrorResponse {
 	private final String error;
